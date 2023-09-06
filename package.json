@@ -1,6 +1,6 @@
 {
   "name": "vue-svgify",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "Converts svg files into re-usable vue components",
   "main": "index.js",
   "scripts": {
