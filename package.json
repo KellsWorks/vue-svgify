@@ -1,22 +1,23 @@
 {
-  "name": "svgvue",
-  "version": "1.0.0",
+  "name": "vue-svgify",
+  "version": "1.0.4",
   "description": "Converts svg files into re-usable vue components",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js",
+    "start": "node index.js",
     "test": "test"
   },
   "bin": {
-    "svgvue": "cli-script.js"
+    "vue-svgify": "cli-script.js"
   },
   "keywords": [
-    "svg-vue"
+    "svg-vue", "vue-svgify"
   ],
   "author": "Kelvin Chidothi",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
+    "commander": "^11.0.0",
     "fs": "^0.0.1-security",
     "lodash.template": "^4.5.0",
     "mkdirp": "^3.0.1",
