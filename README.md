@@ -9,8 +9,8 @@ Converts svg files into vue typescript components.
 
 ```npm install -g vue-svgify```
 
-## Run
+## Run CLI
 
 
-```node index.js --svg-folder-path --vue-component-output-path```
+```vue-svgify --svg-folder-path --vue-component-output-path```
 
