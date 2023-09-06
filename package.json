@@ -1,10 +1,14 @@
 {
-  "name": "svg-vue",
+  "name": "svgvue",
   "version": "1.0.0",
-  "description": "Converts svg files into r-usable vue components",
+  "description": "Converts svg files into re-usable vue components",
   "main": "index.js",
   "scripts": {
+    "start" : "node index.js",
     "test": "test"
+  },
+  "bin": {
+    "svgvue": "cli-script.js"
   },
   "keywords": [
     "svg-vue"
