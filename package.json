@@ -1,0 +1,21 @@
+{
+  "name": "svg-vue",
+  "version": "1.0.0",
+  "description": "Converts svg files into r-usable vue components",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "svg-vue"
+  ],
+  "author": "Kelvin Chidothi",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "fs": "^0.0.1-security",
+    "lodash.template": "^4.5.0",
+    "mkdirp": "^3.0.1",
+    "vue-template-compiler": "^2.7.14"
+  }
+}
